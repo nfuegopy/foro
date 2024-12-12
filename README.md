@@ -46,8 +46,8 @@ Welcome to our modern Forum API system! This comprehensive solution supports bot
 ### Setup Steps
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/forum-api
-cd forum-api
+git clone https://github.com/nfuegopy/foro.git
+cd foro
 ```
 
 2. Install dependencies:
@@ -170,8 +170,8 @@ DELETE /api/images/:id    - Delete image
 ### Pasos de Configuración
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/forum-api
-cd forum-api
+git clone https://github.com/nfuegopy/foro.git
+cd foro
 ```
 
 2. Instalar dependencias:
@@ -294,8 +294,8 @@ Willkommen bei unserem modernen Forum-API-System! Diese umfassende Lösung unter
 ### Einrichtungsschritte
 1. Repository klonen:
 ```bash
-git clone https://github.com/ihr-benutzername/forum-api
-cd forum-api
+git clone https://github.com/nfuegopy/foro.git
+cd foro
 ```
 
 2. Abhängigkeiten installieren:
