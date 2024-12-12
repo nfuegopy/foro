@@ -8,6 +8,7 @@ import { join } from 'path';
 import { CategoriesModule } from './modules/categories/categories.module';
 import { UsersModule } from './modules/users/users.module';
 import { RolesModule } from './modules/roles/roles.module';
+import { ImageModule } from './modules/images/image.module';
 
 @Module({
   imports: [
@@ -45,7 +46,8 @@ import { RolesModule } from './modules/roles/roles.module';
           password,
           database,
           entities: [join(__dirname, '**', '*.entity.{ts,js}')],
-          synchronize: true, // Sólo en desarrollo para crear tablas automáticamente
+          synchronize: false, // Sólo en desarrollo para crear tablas automáticamente
+          migrationsRun: true,
         };
       },
     }),
@@ -56,6 +58,8 @@ import { RolesModule } from './modules/roles/roles.module';
     UsersModule,
 
     RolesModule,
+
+    ImageModule
   ],
 })
 export class AppModule {}
