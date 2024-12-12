@@ -1,11 +1,13 @@
-// src/modules/users/entities/user.entity.ts
 import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
   CreateDateColumn,
   UpdateDateColumn,
+  ManyToOne,
+  JoinColumn,
 } from 'typeorm';
+import { Role } from '../../roles/entities/role.entity';
 
 @Entity('users')
 export class User {
@@ -21,8 +23,12 @@ export class User {
   @Column()
   password_hash: string;
 
-  @Column({ default: 'user' })
-  role: string;
+  @Column({ name: 'role_id' })
+  roleId: number;
+
+  @ManyToOne(() => Role)
+  @JoinColumn({ name: 'role_id' })
+  role: Role;
 
   @Column({ default: 0 })
   post_count: number;

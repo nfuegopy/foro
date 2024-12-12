@@ -45,7 +45,8 @@ import { RolesModule } from './modules/roles/roles.module';
           password,
           database,
           entities: [join(__dirname, '**', '*.entity.{ts,js}')],
-          synchronize: true, // Sólo en desarrollo para crear tablas automáticamente
+          synchronize: false, // Sólo en desarrollo para crear tablas automáticamente
+          migrationsRun: true,
         };
       },
     }),
