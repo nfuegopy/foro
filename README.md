@@ -1,11 +1,11 @@
 # 🚀 Modern Forum API System
 
-![API Banner](https://images.unsplash.com/photo-1557264337-b9715a4e8b91?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3)
+<!-- ![API Banner](https://images.unsplash.com/photo-1557264337-b9715a4e8b91?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3) -->
 
 ## 📖 Overview
 Welcome to our cutting-edge Forum API system! This modern implementation supports both MySQL and PostgreSQL databases, providing a flexible and robust solution for your community needs.
 
-![Database Connection](https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3)
+<!-- ![Database Connection](https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3) -->
 
 ## ⚙️ Environment Configuration
 Create a `.env` file in your project root with these settings:
@@ -34,7 +34,7 @@ PORT=3000
 
 ## ✨ Key Features
 
-![Features](https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3)
+<!-- ![Features](https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3) -->
 
 ### 🔥 Core Functionality
 - **User Management**
@@ -82,8 +82,8 @@ npm run dev
 ```
 
 ## 💾 Database Support
-
-![Database Options](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3)
+<!-- 
+![Database Options](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3) -->
 
 Choose your preferred database:
 
@@ -99,7 +99,7 @@ Choose your preferred database:
 
 ## 🛡️ Security Best Practices
 
-![Security](https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3)
+<!-- ![Security](https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3) -->
 
 - ✅ Use strong passwords
 - ✅ Implement rate limiting
