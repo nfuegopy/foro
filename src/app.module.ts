@@ -1,3 +1,5 @@
+/*eslint-disable prettier/prettier  */
+
 // src/app.module.ts
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
@@ -9,6 +11,8 @@ import { CategoriesModule } from './modules/categories/categories.module';
 import { UsersModule } from './modules/users/users.module';
 import { RolesModule } from './modules/roles/roles.module';
 import { ImageModule } from './modules/images/image.module';
+import { RangosModule } from './modules/rangos/rangos.module';
+import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [
@@ -46,20 +50,22 @@ import { ImageModule } from './modules/images/image.module';
           password,
           database,
           entities: [join(__dirname, '**', '*.entity.{ts,js}')],
-          synchronize: false, // Sólo en desarrollo para crear tablas automáticamente
+          synchronize: false, 
           migrationsRun: true,
         };
       },
     }),
 
-    // Tu módulo de categorías
     CategoriesModule,
 
     UsersModule,
 
     RolesModule,
 
-    ImageModule
+    ImageModule,
+
+    RangosModule,
+    AuthModule
   ],
 })
 export class AppModule {}
